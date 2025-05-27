@@ -27,7 +27,7 @@
 
 Paper Available at [Arxiv](https://arxiv.org/abs/2503.02357).
 
-Dataset will be available at [AGI-Eval](https://agi-eval.cn/evaluation/Q-Eval-100K?id=55).
+Dataset is now available at [HF](AGI-Eval-Official/Q-Eval-100K). Only the training instances are open-sourced.
 
 Q-Eval serves as the dataset for the [NTIRE 2025 XGC Track 2](https://codalab.lisn.upsaclay.fr/competitions/21485).
 
