@@ -27,7 +27,7 @@
 
 Paper Available at [Arxiv](https://arxiv.org/abs/2503.02357).
 
-Dataset is now available at [HF](AGI-Eval-Official/Q-Eval-100K). Only the training instances are open-sourced.
+Dataset is now available at [HF](https://huggingface.co/datasets/AGI-Eval-Official/Q-Eval-100K). Only the training instances are open-sourced.
 
 Q-Eval serves as the dataset for the [NTIRE 2025 XGC Track 2](https://codalab.lisn.upsaclay.fr/competitions/21485).
 
@@ -68,11 +68,11 @@ alignment, with strong generalization capabilities across other benchmarks.
 <div align="left">
 <h2>Dataset Access</h2> 
 
-The dataset will be available at [AGI-Eval](https://agi-eval.cn/evaluation/Q-Eval-100K?id=55).
+The training dataset is available at [HF](https://huggingface.co/datasets/AGI-Eval-Official/Q-Eval-100K).
 
 <h2>Model Release</h2>
 
-To be updated ...
+Due to the Meituan copyright policies, currently we are not allowed to release the Q-Eval-Score model.
 
 
 ## Citation
