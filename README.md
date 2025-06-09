@@ -86,6 +86,15 @@ We hope this model can serve as a starting point for building strong and explain
 
 We provide a Python script [`infer.py`](./utils/infer.py) for running inference using the open-source Q-Eval-Score model.
 
+| Task            | PLCC  | SRCC  |
+| --------------- | ----- | ----- |
+| Image Alignment | 0.797 | 0.826 |
+| Image Quality   | 0.760 | 0.747 |
+| Video Alignment | 0.613 | 0.614 |
+| Video Quality   | 0.700 | 0.673 |
+
+The current performance is obtained by retesting our open-sourced version of the Q-Eval-Score model, which is trained entirely on publicly available data. This version does not include any proprietary annotations or Meituan internal data, which were used in the original Q-Eval release.
+
 ## Citation
 
 If you find our work useful, please cite our paper as:
