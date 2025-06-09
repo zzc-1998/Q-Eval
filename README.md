@@ -29,6 +29,8 @@ Paper Available at [Arxiv](https://arxiv.org/abs/2503.02357).
 
 Dataset is now available at [HF](https://huggingface.co/datasets/AGI-Eval-Official/Q-Eval-100K). Only the training instances are open-sourced.
 
+The retrained Q-Eval-Score weight on the training instances is at [https://huggingface.co/AGI-Eval-Official/Q-Eval-Score](https://huggingface.co/AGI-Eval-Official/Q-Eval-Score)
+
 Q-Eval serves as the dataset for the [NTIRE 2025 XGC Track 2](https://codalab.lisn.upsaclay.fr/competitions/21485).
 
 
@@ -74,6 +76,15 @@ The training dataset is available at [HF](https://huggingface.co/datasets/AGI-Ev
 
 Due to the Meituan copyright policies, currently we are not allowed to release the Q-Eval-Score model.
 
+However, to support the research community, we have **re-trained the model from scratch using the public part of Q-Eval data only**. The weights of this fully open-source version are now available on Hugging Face:
+
+👉 [https://huggingface.co/AGI-Eval-Official/Q-Eval-Score](https://huggingface.co/AGI-Eval-Official/Q-Eval-Score)
+
+We hope this model can serve as a starting point for building strong and explainable visual evaluators.
+
+## 💻 Inference
+
+We provide a Python script [`infer.py`](./utils/infer.py) for running inference using the open-source Q-Eval-Score model.
 
 ## Citation
 
